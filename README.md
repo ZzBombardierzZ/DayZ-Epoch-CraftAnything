@@ -1,4 +1,4 @@
-# DayZ-Epoch-CraftAnything
+# craftAnything for DayZ Epoch 1.0.7.1+
 A script I originally wrote for TLF servers, but with their permission I am releasing to the public to celebrate getting the A2 Community Dev role in the Epoch Discord.
 This script allows you to add a ton of craftable items to your server. It is super modular, and takes up very little space. It is also very easy to configure. You can add as many configs as you want. TLF has come up with about 40 custom crafting configs, I have included their turret configs in the example configVariables.sqf file.
 
