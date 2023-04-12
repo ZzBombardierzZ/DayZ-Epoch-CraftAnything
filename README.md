@@ -5,8 +5,9 @@ This script allows you to add a ton of craftable items to your server. It is sup
 # Installation & Setup
 1. Download the code as a zip file
 2. Copy the craftAnything.sqf file into your mission folder, inside of a "scripts" folder. Example: "ServerRoot\mpmissions\DayZ_Epoch_11.Chernarus\scripts\craftAnything.sqf"
-3. In configVariables.sqf, find the `DZE_CLICK_ACTIONS` array and add the desired configs to it. See the example configVariables.sqf file for more info.
-4. Go into the newly created craftAnything.sqf file and edit the "CONFIG SECTION" to your liking. Read the comments in the file for more info.
+3. In your compiles.sqf file, copy the `bomb_combineArrayOfDuplicates` section in the provided compiles.sqf file and paste it at the in your compiles.sqf file somewhere under `if (!isDedicated) then {` as shown in the file.
+4. In configVariables.sqf, find the `DZE_CLICK_ACTIONS` array and add the desired configs to it. See the example configVariables.sqf file for more info.
+5. Go into the newly created craftAnything.sqf file and edit the "CONFIG SECTION" to your liking. Read the comments in the file for more info.
 
 # Battleye Filters
 If you are using Battleye on your server, you will need to update your scripts.txt file to allow the script to run. I am not going to provide a list of filters unfortunately. It is fairly easy to do yourself. You can look at https://opendayz.net/threads/a-guide-to-battleye-filters.21066/ to learn more about BattlEye filters and use https://github.com/eraser1/BE_AEG to generate scripts.txt filters automatically.
@@ -22,3 +23,4 @@ If you have any questions, comments, or concerns, please feel free to contact me
 
 # Changelog
 v1.0.0 - Initial release
+v1.0.1 - Added `bomb_combineArrayOfDuplicates` function to compiles.sqf file. Thanks to Gnominger in discord for pointing out this issue.
