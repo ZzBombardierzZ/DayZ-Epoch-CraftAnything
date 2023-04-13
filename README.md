@@ -22,5 +22,5 @@ There is none. But please give credit where credit is due. If you do use this sc
 If you have any questions, comments, or concerns, please feel free to contact me on Discord at `ZzBombardierzZ#5945` or in the Epoch Discord server.
 
 # Changelog
-v1.0.0 - Initial release
-v1.0.1 - Added `bomb_combineArrayOfDuplicates` function to compiles.sqf file. Thanks to Gnominger in discord for pointing out this issue.
+* v1.0.0 - 2023-01-22 - Initial release
+* v1.0.1 - 2023-04-12 - Added `bomb_combineArrayOfDuplicates` function to compiles.sqf file. Thanks to Gnominger in discord for pointing out this issue.
