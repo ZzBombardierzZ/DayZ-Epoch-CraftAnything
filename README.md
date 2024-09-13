@@ -2,7 +2,7 @@
 A script I originally wrote for TLF servers, but with their permission I am releasing to the public to celebrate getting the A2 Community Dev role in the Epoch Discord.
 This script allows you to add a ton of craftable items to your server. It is super modular, and takes up very little space. It is also very easy to configure. You can add as many configs as you want. TLF has come up with about 40 custom crafting configs, I have included their turret configs in the example configVariables.sqf file.
 
-I was inspired by deployAnything which is an excellent script, which provides easy and modular object placements.
+I was inspired by deployAnything which is an excellent script and provides easy object or vehicle placements.
 
 ## Features
 - Ability to add a right-click option to any magazine or weapon/tool, and then add requirements to craft something from that right-clicked item.
